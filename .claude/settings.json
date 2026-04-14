@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "codex exec --skip-git-repo-check \"Review changes in the file planning/PLAN.md and write your feedback to planning/REVIEW.md\""
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "test-reviewer@dmitry-tools": true
+  }
+}
